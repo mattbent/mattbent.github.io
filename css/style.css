@@ -1,0 +1,103 @@
+@-webkit-keyframes projectFire {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes projectFire {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes projectFire { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#home{
+  height: 750px;
+  width:100%;
+background: linear-gradient(270deg, #c33764, #1d2671);
+background-size: 400% 400%;
+
+-webkit-animation: projectFire 30s ease infinite;
+-moz-animation: projectFire 30s ease infinite;
+animation: projectFire 30s ease infinite;
+
+
+
+}
+#menu-bar{
+  width:100%;
+  height:8%;
+  margin:0 auto;
+  text-align:center;
+  position:fixed;
+  z-index:10;
+  clip: rect(auto,auto,auto,auto);
+  
+}
+#intro{
+  text-align: center;
+  vertical-align:middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:100%;
+}
+
+button{
+  display:inline-block;
+  width:15%;
+  height:100%;
+  margin: 0 auto;
+  color:grey;
+  font-size:30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:100;
+  text-align:center;
+  border: none;
+  clip: rect(auto,auto,auto,auto);
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  font-weight:100;
+  color:white;
+}
+.subtitle{
+  font-size:50px;
+}
+p{
+  text-shadow:none;
+  color:black;
+  font-size:25px;
+}
+#about-me{
+  background-color:white;
+  text-align: center;
+  color:black;
+  width:100%;
+  padding-top: 100px;
+}
+#resume{
+  background-color:white;
+  text-align: left;
+  color:black;
+  width:100%;
+  padding-top:100px;
+}
+#projects{
+  background-color:white;
+  text-align: left;
+  color:black;
+  width:100%;
+  padding-top:100px;
+}
+#links{
+  background-color:white;
+  text-align:center;
+  color:black;
+  width:100%;
+  padding:50px;
+}
