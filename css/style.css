@@ -8,11 +8,12 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes projectFire { 
+@keyframes projectFire {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
 #home{
   height: 750px;
   width:100%;
@@ -34,7 +35,7 @@ animation: projectFire 30s ease infinite;
   position:fixed;
   z-index:10;
   clip: rect(auto,auto,auto,auto);
-  
+
 }
 #intro{
   text-align: center;
